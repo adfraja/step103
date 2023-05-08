@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true">
+<Entities ExportSize="Minimum">
+<Entity>
+<Name/><AttributeLink/><ClassificationCrossReference/><Entity/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ContextCrossReference/><Values/></Entity></Entities>
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from Primary Product Hierarchy
+Effective date: 2023-05-08 12:25:10
+Classifications All
+Products All
+Assets All
+
+Exported by database exporter.
+-->
+<STEP-ProductInformation ExportTime="2023-05-08 12:25:10" ExportContext="DE All All" ContextID="DE All All" WorkspaceID="Approved" UseContextLocale="false">
+
+  <Entities>
+    <Entity ID="95504" UserTypeID="DRAJ_Entity" ParentID="Entity hierarchy root">
+      <Name>DRAJ_Entity</Name>
+      <Values>
+        <Value AttributeID="draj_Entity_ref_meta">DRAJ_Entity_ refe_metaData</Value>
+      </Values>
+      <Entity ID="95505" UserTypeID="draj_customers">
+        <Name>Customer01</Name>
+        <Values>
+          <Value AttributeID="draj_Entity_ref_meta">Customer01</Value>
+        </Values>
+      </Entity>
+      <Entity ID="108776" UserTypeID="draj_customers">
+        <Name>Customer2</Name>
+        <Values>
+          <Value AttributeID="draj_Entity_ref_meta">Customer2</Value>
+        </Values>
+      </Entity>
+      <Entity ID="698519" UserTypeID="draj_customers">
+        <Name>draj_entity_level2</Name>
+        <Entity ID="draj_en-001" UserTypeID="draj_en_level3">
+          <Name>draj_en-001</Name>
+        </Entity>
+      </Entity>
+    </Entity>
+  </Entities>
+</STEP-ProductInformation>
